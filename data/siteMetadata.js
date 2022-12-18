@@ -1,6 +1,6 @@
 const siteMetadata = {
-  title: "THVu - Thang Huu Vu",
-  author: "Thang Huu Vu",
+  title: "Kyle",
+  author: "Kyle",
   headerTitle: "THVu",
   description: "THVu's site",
   language: "en-us",
