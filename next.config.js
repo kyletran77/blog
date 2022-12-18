@@ -90,6 +90,7 @@ const nextConfig = {
   // experimental: { appDir: true },
 };
 
-module.exports = isDevelopment
-  ? nextConfig
-  : withSentryConfig(withPWA(withBundleAnalyzer(nextConfig)), SentryWebpackPluginOptions);
+// module.exports = isDevelopment
+//   ? nextConfig
+//   : withSentryConfig(withPWA(withBundleAnalyzer(nextConfig)), SentryWebpackPluginOptions);
+module.exports = nextConfig;
